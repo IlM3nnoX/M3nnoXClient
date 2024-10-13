@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Gang Del M3nnoX - Home</title>
+
+    <!-- Importa il font Montserrat da Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif; /* Usa il font Montserrat */
+            background-color: #ffffff; /* Sfondo bianco */
+            color: #333; /* Testo grigio scuro per leggibilità */
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #ffffff; /* Sfondo bianco per la barra di navigazione */
+            padding: 10px 0;             display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+        }
+
+        .navbar a {
+            color: #333; /* Colore del testo più neutro */
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px;
+            transition: color 0.5s, opacity 0.5s ease; /* Aggiunta transizione per dissolvenza */
+        }
+
+        .navbar a:hover {
+            color: #007bff; /* Colore blu al passaggio del mouse */
+            opacity: 0.7; /* Effetto di dissolvenza */
+        }
+
+        /* Stile speciale per il pulsante Home */
+        .navbar .home-btn {
+            background-color: #007bff; /* Colore blu per il pulsante Home */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background-color 0.5s, opacity 0.5s ease; /* Aggiunta transizione */
+        }
+
+        .navbar .home-btn:hover {
+            background-color: #0056b3; /* Colore blu più scuro al passaggio del mouse */
+            opacity: 0.7; /* Effetto dissolvenza */
+        }
+
+        .navbar .discord-btn {
+            background-color: #7289da; /* Colore blu Discord */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background-color 0.5s, opacity 0.5s ease; /* Aggiunta transizione */
+            margin-left: auto; /* Sposta il pulsante a destra */
+        }
+
+        .navbar .discord-btn:hover {
+            background-color: #5b6eae; /* Colore blu più scuro al passaggio del mouse */
+            opacity: 0.7; /* Effetto dissolvenza */
+        }
+
+        .container {
+            text-align: center;
+            background-color: #ffffff; /* Sfondo bianco pulito */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Ombra molto leggera */
+            margin-top: 50px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        /* Stile per la casella informativa */
+        .info-box {
+            background-color: #f8f9fa; /* Colore grigio chiaro per lo sfondo della casella */
+            border: 1px solid #e9ecef; /* Bordo grigio chiaro */
+            border-radius: 8px; /* Angoli arrotondati */
+            padding: 10px;
+            margin-top: 20px; /* Margine superiore per distanziare */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+            max-width: 600px; /* Larghezza massima */
+            margin-left: auto; /* Centrato */
+            margin-right: auto; /* Centrato */
+            font-size: 1em; /* Font size ridotto */
+        }
+
+        button {
+            background-color: #007bff; /* Blu minimalista per i bottoni */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.5s, opacity 0.5s ease; /* Aggiunta transizione */
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Colore blu più scuro al passaggio del mouse */
+            opacity: 0.7; /* Effetto dissolvenza */
+        }
+
+        #copy-confirm {
+            margin-top: 10px;
+            color: #28a745; /* Verde per la conferma */
+            opacity: 0; /* Inizialmente invisibile */
+            transition: opacity 0.5s ease; /* Aggiunta transizione di dissolvenza */
+        }
+
+        #copy-confirm.show {
+            opacity: 1; /* Mostra con effetto dissolvenza */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra di navigazione -->
+    <div class="navbar">
+	        <a href="#home" class="home-btn">HOME</a>
+        <a href="https://discord.gg/DjGBNXcj" class="discord-btn" target="_blank">Discord</a> <!-- Link Discord -->
+    </div>
+
+    <div class="container">
+        <!-- Casella di benvenuto -->
+        <div class="welcome-box">
+            <h1>Benvenuto sul sito del M3nnoXCLIENT!</h1>
+        </div>
+		
+
+         <a href='https://download850.mediafire.com/8gzhps2tpnfgUMeOTbhAy9rqzWmVJ_ssn4nRasO_45aG5dqDnflSnxe53iYLOccd9X9vbeysuvZhPBIzulfBXoJXndPhGQq7ZoNUiq5cvB_QgrSpgr2O25JXkPeWI4q5Pv5UnvBfutpdRorRGwebUJmslsaTWucdnIc0B7Zsi2nu/v8n9shi7ehczy1y/M3nnoX+Client.zip'><button>DOWNLOAD CLIENT!</button></a>
+		        <p>Vuoi sapere come mettere il client dentro minecraft?? Ecco questo video fa per te!        
+		        <p> 
+				<p> 
+				<p> 
+				<p> 
+				<p> 
+		 <a href='https://youtu.be/S2rVfYGRn4c'><button>Tutorial</button></a>
+        <!-- Casella informativa sotto l'IP -->
+        <div class="info-box">
+            <p>IlM3nnoX Client nasce grazie all'intento dello youtuber IlM3nnoX e una mano da il suo Admin Christian!</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('copy-btn').addEventListener('click', function() {
+            // Prendi l'elemento che contiene l'indirizzo IP
+            var ipText = document.getElementById('server-ip').textContent;
+
+            // Crea un campo temporaneo per copiare il testo
+            var tempInput = document.createElement('input');
+            tempInput.value = ipText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            // Mostra un messaggio di conferma con effetto dissolvenza
+            var confirmMessage = document.getElementById('copy-confirm');
+            confirmMessage.classList.add('show');
+
+            // Nascondi il messaggio dopo 2 secondi con dissolvenza
+            setTimeout(function() {
+                confirmMessage.classList.remove('show');
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
